@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: auto;
+    font-family: Arial;
+    font-size: 25px; 
+    line-height: 25px; 
+}
+
+#head {
+    margin-top: 100px;
+}
+
+a, a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2em;
+    margin-left: 20px;
+}
+
+#canvas-container {
+    position: relative;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 20%;
+    width: 70%; 
+    z-index: 10; 
+}
+
+.menu a, .menu h1{ 
+    font-size: 30px; 
+    line-height: 35px; 
+    display: inline-block;
+}
+.menu a, .menu p{
+    display: block;
+
+}
+
+.menu a:hover, .menu p:hover {
+    line-height: 50px; 
+    text-align: left;
+    background-color: black;
+    transition: 0.5s;
+    padding-left: 20px;
+}
+
+
+
+
+h1{
+    font-family: Arial;
+    font-size: 35px;
+    font-weight: normal;
+}
+
+@media only screen and (max-width : 815px) {
+    body{
+        font-size: 58px; 
+        line-height: 58px;
+        width: 100vw;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        -webkit-overflow-scrolling: touch;
+    }
+}
+
